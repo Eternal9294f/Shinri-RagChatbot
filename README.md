@@ -3,7 +3,7 @@
 # 🔎 **_Shinri_**
 ### Mutual Funds Facts Chatbot &bull; Groww Context
 *NextLeap Product Management Fellowship &bull; Milestone 4 Portfolio Prototype*
-
+*[🌐 Launch Live Application](https://shinri-mf-rag.onrender.com)**
 <br>
 
 [![Live Demo on Render](https://img.shields.io/badge/Live%20App-Render%20Web%20Service-8C2B38?style=for-the-badge&logo=render&logoColor=white)](https://shinri-mf-rag.onrender.com)
@@ -11,8 +11,6 @@
 [![Evaluation Suite](https://img.shields.io/badge/Evaluation-100%25%20Passed%20(46%2F46)-15803D?style=for-the-badge)](docs/evaluation_report.md)
 
 <br>
-
-**[🌐 Launch Live Application](https://shinri-mf-rag.onrender.com)** &bull; **[📊 View Evaluation Report (46/46 Passed)](docs/evaluation_report.md)** &bull; **[📑 Sample Q&A Deliverable](docs/sample_qa.md)**
 
 </div>
 
