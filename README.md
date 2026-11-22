@@ -6,7 +6,7 @@
 
 </div>
 
-> In anime lore and Japanese philosophy, **_Shinri_** (真理) translates to *"The Ultimate Truth"* — an uncompromising, grounded reality devoid of illusion, speculation, or hype. Applied to personal finance, **_Shinri_** is an evidence-grounded **Mutual Funds Facts Chatbot** engineered for the Groww mutual fund ecosystem. Instead of generic AI chat that hallucinates figures or gives biased financial advice, **_Shinri_** retrieves verified facts directly from official statutory scheme documentation (SID, KIM, and factsheets) and synthesizes concise, source-attributed answers with clickable citations.
+> **_Shinri_** (真理) translates to *"The Truth"* — an evidence-grounded reality devoid of speculation or hype. **_Shinri_** is a specialized **Mutual Funds Facts Chatbot** engineered for the Groww mutual fund platform context. Instead of generic AI chat that hallucinates figures or gives unauthorized financial advice, **_Shinri_** retrieves verified facts directly from official statutory scheme documentation (SID, KIM, and factsheets) and synthesizes concise, source-attributed answers with clickable citations.
 
 ---
 
