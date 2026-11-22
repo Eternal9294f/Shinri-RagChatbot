@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/Status-100%25%20Verified%20RAG-00D09C?style=for-the-badge)](https://github.com/Eternal9294f/Shinri-)
 [![Evaluation](https://img.shields.io/badge/Evaluation-46%2F46%20Passed%20(100%25)-00D09C?style=for-the-badge)](docs/evaluation_report.md)
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Eternal9294f/Shinri-)
-[![Deploy to Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Eternal9294f/Shinri-&branch=main&mainModule=src/app.py)
+](https://share.streamlit.io/deploy?repository=Eternal9294f/Shinri-&branch=main&mainModule=src/app.py)
 
 > **Shinri (真理)** is an anime-inspired, evidence-grounded financial information assistant built for the Groww mutual fund platform context. Instead of generic AI chat that hallucinates facts or offers unauthorized financial advice, Shinri retrieves verified facts from official scheme documentation (SID/KIM/Groww disclosures) and synthesizes concise, source-attributed answers with clickable citations.
 
