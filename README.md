@@ -6,7 +6,7 @@
 
 
 [![Live Demo on Render](https://img.shields.io/badge/Live%20App-Render%20Web%20Service-8C2B38?style=for-the-badge&logo=render&logoColor=white)](https://shinri-mf-rag.onrender.com)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-1C1917?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Eternal9294f/Shinri-)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-1C1917?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Eternal9294f/Shinri-RagChatbot)
 [![Evaluation Suite](https://img.shields.io/badge/Evaluation-100%25%20Passed%20(46%2F46)-15803D?style=for-the-badge)](docs/evaluation_report.md)
 
 
@@ -24,7 +24,7 @@
 | Destination | URL | Description |
 |---|---|---|
 | **🌐 Production App (Render)** | **[https://shinri-mf-rag.onrender.com](https://shinri-mf-rag.onrender.com)** | Live web application with peaceful PromptBolo editorial styling. |
-| **📂 Source Repository** | **[https://github.com/Eternal9294f/Shinri-](https://github.com/Eternal9294f/Shinri-)** | Complete source code, pre-built ChromaDB index, and evaluation test suite. |
+| **📂 Source Repository** | **[https://github.com/Eternal9294f/Shinri-RagChatbot](https://github.com/Eternal9294f/Shinri-RagChatbot)** | Complete source code, pre-built ChromaDB index, and evaluation test suite. |
 | **📊 Evaluation Report** | **[docs/evaluation_report.md](docs/evaluation_report.md)** | Empirical 46/46 test cases passed (100% accuracy across 6 test suites). |
 | **📑 Sample Q&A Deliverable** | **[docs/sample_qa.md](docs/sample_qa.md)** | Comprehensive evidence-grounded queries across all 5 HDFC schemes. |
 
@@ -133,7 +133,7 @@ An automated suite of 46 rigorous test cases was executed across 6 functional di
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Eternal9294f/Shinri-.git
+git clone https://github.com/Eternal9294f/Shinri-RagChatbot.git
 cd Shinri-
 ```
 
