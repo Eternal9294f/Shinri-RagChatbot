@@ -19,16 +19,19 @@ pipeline = ShinriRAGPipeline()
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Pre-warm embedder and ChromaDB index so user queries execute in < 100ms
-    print("Pre-warming embedding model and vector store...")
-    try:
-        LocalEmbedder.get_instance()
-        VectorStore.get_collection()
-        # Run a quick dummy warmup query
-        VectorStore.similarity_search("HDFC", top_k=1)
-        print("Pre-warming complete. Shinri is ready to serve queries.")
-    except Exception as e:
-        print(f"Warmup notice: {e}")
+    # Pre-warm asynchronously in background thread so port binds instantly on Render
+    import threading
+    def _warmup():
+        print("Pre-warming embedding model and vector store in background...")
+        try:
+            LocalEmbedder.get_instance()
+            VectorStore.get_collection()
+            VectorStore.similarity_search("HDFC", top_k=1)
+            print("Pre-warming complete. Shinri is ready to serve queries.")
+        except Exception as e:
+            print(f"Warmup notice: {e}")
+
+    threading.Thread(target=_warmup, daemon=True).start()
     yield
 
 
