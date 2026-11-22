@@ -1,6 +1,6 @@
-# 🔎 Shinri (真理)
-### Verifiable Mutual Fund Information Assistant &bull; Groww Context
-*NextLeap Product Management Fellowship &bull; Milestone 4 Portfolio Prototype*
+#                                                 🔎 Shinri (真理)
+###                         Verifiable Mutual Fund Information Assistant &bull; Groww Context
+*  NextLeap Product Management Fellowship &bull; Milestone 4 Portfolio Prototype*
 
 [![Status](https://img.shields.io/badge/Status-100%25%20Verified%20RAG-00D09C?style=for-the-badge)](https://github.com/Eternal9294f/Shinri-)
 [![Evaluation](https://img.shields.io/badge/Evaluation-46%2F46%20Passed%20(100%25)-00D09C?style=for-the-badge)](docs/evaluation_report.md)
