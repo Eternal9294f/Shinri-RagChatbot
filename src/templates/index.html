@@ -3,30 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shinri (真理) - Mutual Fund Facts Assistant | Groww Context</title>
+  <title>Shinri (真理) - Mutual Funds Facts Chatbot | Groww Context</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
 
+  <!-- Atmospheric Background Ambient Glows -->
+  <div class="ambient-glow glow-top-left"></div>
+  <div class="ambient-glow glow-top-right"></div>
+  <div class="ambient-glow glow-bottom-center"></div>
+
   <!-- Top Navigation Header -->
   <header class="app-header">
     <div class="brand-wrapper">
-      <div class="brand-logo">真</div>
+      <div class="brand-logo" title="Shinri (The Truth)">
+        <span>真</span>
+      </div>
       <div class="brand-text">
-        <h1>Shinri <span class="kanji">(真理)</span></h1>
-        <div class="brand-subtitle">Mutual Fund Facts Assistant &bull; Groww Context</div>
+        <h1 class="brand-title">
+          <strong><em>Shinri</em></strong> <span class="kanji-badge">真理</span>
+        </h1>
+        <div class="brand-subtitle">Mutual Funds Facts Chatbot &bull; Groww Context</div>
       </div>
     </div>
 
     <div class="header-badges">
       <div class="status-badge">
-        <span class="status-dot"></span>
+        <span class="status-pulse"></span>
         <span>Facts-Only &bull; No Investment Advice</span>
       </div>
-      <button class="btn-secondary" id="clearBtn">Clear Chat</button>
+      <button class="btn-clear" id="clearBtn" title="Reset chat conversation">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="1 4 1 10 7 10"></polyline>
+          <polyline points="23 20 23 14 17 14"></polyline>
+          <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path>
+        </svg>
+        <span>Clear</span>
+      </button>
     </div>
   </header>
 
@@ -35,40 +51,94 @@
     
     <!-- Hero / Welcome Section -->
     <section class="hero-section" id="heroSection">
-      <div class="hero-tag">NextLeap PM Fellowship &bull; Milestone 4</div>
-      <h2 class="hero-title">Verifiable Mutual Fund Intelligence</h2>
-      <p class="hero-desc">
-        A grounded, retrieval-augmented assistant covering 5 HDFC schemes. 
-        Answers are synthesized strictly from official disclosures with verified source citations.
-      </p>
-
-      <div class="schemes-strip">
-        <span class="scheme-tag">Large Cap (Top 100)</span>
-        <span class="scheme-tag">Flexi Cap</span>
-        <span class="scheme-tag">ELSS Tax Saver</span>
-        <span class="scheme-tag">Small Cap</span>
-        <span class="scheme-tag">Balanced Advantage</span>
+      
+      <div class="fellowship-pill">
+        <span class="pill-dot"></span>
+        <span>NextLeap PM Fellowship &bull; Milestone 4 Portfolio Prototype</span>
       </div>
 
+      <div class="hero-headline-block">
+        <h2 class="hero-main-title">
+          Meet <strong><em>Shinri</em></strong> <span class="hero-kanji">(真理)</span>
+        </h2>
+        <div class="hero-category-label">Mutual Funds Facts Chatbot</div>
+      </div>
+
+      <!-- Conceptual Explanation of Shinri -->
+      <div class="concept-card">
+        <div class="concept-badge">About <strong><em>Shinri</em></strong></div>
+        <p class="concept-text">
+          In anime lore and Japanese philosophy, <strong><em>Shinri</em></strong> (真理) translates to <em>"The Ultimate Truth"</em> — reality stripped of speculation and illusion. 
+          Applied to finance, <strong><em>Shinri</em></strong> is an evidence-grounded <strong>Mutual Funds Facts Chatbot</strong> engineered for the Groww mutual fund ecosystem. 
+          Instead of generic AI chatbots that hallucinate numbers or provide unauthorized financial advice, <strong><em>Shinri</em></strong> queries verified statutory scheme disclosures (SID, KIM, and factsheets) to deliver verifiable, source-attributed financial facts.
+        </p>
+      </div>
+
+      <!-- Ingested Schemes Ribbon -->
+      <div class="schemes-wrapper">
+        <div class="schemes-label">Covered HDFC Schemes (Direct - Growth):</div>
+        <div class="schemes-strip">
+          <div class="scheme-pill">
+            <span class="scheme-bullet bullet-largecap"></span>
+            <span class="scheme-name">Large Cap</span>
+            <span class="scheme-meta">Top 100</span>
+          </div>
+          <div class="scheme-pill">
+            <span class="scheme-bullet bullet-flexicap"></span>
+            <span class="scheme-name">Flexi Cap</span>
+            <span class="scheme-meta">Multi-Cap</span>
+          </div>
+          <div class="scheme-pill">
+            <span class="scheme-bullet bullet-elss"></span>
+            <span class="scheme-name">ELSS Tax Saver</span>
+            <span class="scheme-meta">3-Yr Lock</span>
+          </div>
+          <div class="scheme-pill">
+            <span class="scheme-bullet bullet-smallcap"></span>
+            <span class="scheme-name">Small Cap</span>
+            <span class="scheme-meta">High Growth</span>
+          </div>
+          <div class="scheme-pill">
+            <span class="scheme-bullet bullet-hybrid"></span>
+            <span class="scheme-name">Balanced Advantage</span>
+            <span class="scheme-meta">Dynamic</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prompt Suggestion Cards -->
+      <div class="examples-header">Explore Factual Scheme Questions:</div>
       <div class="examples-grid">
         <div class="example-card" data-query="What is the expense ratio of HDFC Small Cap Direct Growth?">
-          <div class="label">Expense Ratio</div>
-          <div class="query-text">"What is the expense ratio of HDFC Small Cap Direct Growth?"</div>
+          <div class="example-top">
+            <span class="example-tag tag-green">Expense Ratio</span>
+            <svg class="example-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </div>
+          <div class="example-query">"What is the expense ratio of HDFC Small Cap Direct Growth?"</div>
         </div>
 
         <div class="example-card" data-query="What is the mandatory lock-in period for HDFC ELSS Tax Saver?">
-          <div class="label">Taxation & Lock-in</div>
-          <div class="query-text">"What is the mandatory lock-in period for HDFC ELSS Tax Saver?"</div>
+          <div class="example-top">
+            <span class="example-tag tag-purple">Taxation & Lock-in</span>
+            <svg class="example-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </div>
+          <div class="example-query">"What is the mandatory lock-in period for HDFC ELSS Tax Saver?"</div>
         </div>
 
         <div class="example-card" data-query="What is the exit load for HDFC Large Cap Fund?">
-          <div class="label">Exit Load</div>
-          <div class="query-text">"What is the exit load for HDFC Large Cap Fund?"</div>
+          <div class="example-top">
+            <span class="example-tag tag-blue">Exit Load</span>
+            <svg class="example-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </div>
+          <div class="example-query">"What is the exit load for HDFC Large Cap Fund?"</div>
         </div>
 
         <div class="example-card" data-query="How do I download my capital gains statement on Groww?">
-          <div class="label">Account Statement</div>
-          <div class="query-text">"How do I download my capital gains statement on Groww?"</div>
+          <div class="example-top">
+            <span class="example-tag tag-amber">Account Statement</span>
+            <svg class="example-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </div>
+          <div class="example-query">"How do I download my capital gains statement on Groww?"</div>
         </div>
       </div>
     </section>
@@ -86,7 +156,7 @@
           type="text" 
           id="chatInput" 
           class="chat-input" 
-          placeholder="Ask a factual question (e.g., minimum SIP, exit load, benchmark, lock-in)..." 
+          placeholder="Ask a factual question (e.g. minimum SIP, exit load, lock-in, benchmark)..." 
           autocomplete="off"
         />
         <button id="sendBtn" class="send-btn" title="Send Question">
@@ -97,7 +167,7 @@
         </button>
       </div>
       <div class="disclaimer-bar">
-        Facts-only assistance. No personalized investment advice or return projections. Last updated from sources: 27 September 2026.
+        <strong><em>Shinri</em></strong> is a facts-only assistant. No personalized investment advice or return projections. Last updated from sources: 27 September 2026.
       </div>
     </div>
   </footer>
