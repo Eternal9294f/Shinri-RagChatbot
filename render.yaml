@@ -2,9 +2,9 @@ services:
   - type: web
     name: shinri-mf-rag
     env: python
-    region: oregon
+    region: singapore
     plan: free
-    buildCommand: "pip install -r requirements.txt && python -m src.ingest.run"
+    buildCommand: "pip install --no-cache-dir -r requirements.txt"
     startCommand: "uvicorn src.main:app --host 0.0.0.0 --port $PORT"
     envVars:
       - key: GROQ_API_KEY

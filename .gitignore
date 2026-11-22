@@ -12,9 +12,6 @@ __pycache__/
 *$py.class
 *.so
 
-# Vector Database (rebuilt during build/ingest)
-chroma_db/
-
 # OS specific
 .DS_Store
 Thumbs.db
