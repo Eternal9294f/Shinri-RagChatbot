@@ -3,9 +3,13 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Enforce offline Hugging Face loading from local cache
-os.environ["HF_HUB_OFFLINE"] = "1"
-os.environ["TRANSFORMERS_OFFLINE"] = "1"
+# Allow offline Hugging Face loading only if explicitly enabled; otherwise allow online download for clean deployments (e.g. Render)
+if os.getenv("HF_HUB_OFFLINE", "0") == "1":
+    os.environ["HF_HUB_OFFLINE"] = "1"
+    os.environ["TRANSFORMERS_OFFLINE"] = "1"
+else:
+    os.environ.pop("HF_HUB_OFFLINE", None)
+    os.environ.pop("TRANSFORMERS_OFFLINE", None)
 
 # Base paths
 PROJECT_ROOT = Path(__file__).resolve().parent.parent

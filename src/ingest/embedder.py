@@ -15,9 +15,9 @@ class LocalEmbedder:
         if cls._instance is None:
             print(f"Loading embedding model: {EMBEDDING_MODEL_NAME}...")
             try:
-                cls._instance = SentenceTransformer(EMBEDDING_MODEL_NAME, local_files_only=True)
-            except Exception:
                 cls._instance = SentenceTransformer(EMBEDDING_MODEL_NAME)
+            except Exception:
+                cls._instance = SentenceTransformer(EMBEDDING_MODEL_NAME, local_files_only=True)
             print("Embedding model loaded successfully.")
         return cls._instance
 
