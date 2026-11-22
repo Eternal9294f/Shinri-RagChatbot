@@ -60,11 +60,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const loadingElem = appendLoadingBubble();
 
     try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 25000);
+
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query })
+        body: JSON.stringify({ query }),
+        signal: controller.signal
       });
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
 
       const data = await response.json();
       loadingElem.remove();
@@ -72,11 +81,11 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (error) {
       loadingElem.remove();
       appendAssistantMessage({
-        answer: 'Sorry, unable to retrieve official documentation right now. Please check server logs.',
-        sources: [],
+        answer: 'The service is currently warming up or momentarily unreachable. Please click again or try another question.',
+        sources: ['https://groww.in/mutual-funds'],
         retrieved_chunks: [],
         guardrail_triggered: true,
-        guardrail_reason: 'NETWORK_ERROR'
+        guardrail_reason: 'NETWORK_RETRY'
       });
     } finally {
       sendBtn.disabled = false;

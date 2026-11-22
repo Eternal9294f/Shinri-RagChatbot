@@ -14,10 +14,15 @@ class LocalEmbedder:
     def get_instance(cls):
         if cls._instance is None:
             print(f"Loading embedding model: {EMBEDDING_MODEL_NAME}...")
+            # Prioritize local cached weights to prevent HuggingFace network retries and timeout
             try:
-                cls._instance = SentenceTransformer(EMBEDDING_MODEL_NAME)
-            except Exception:
                 cls._instance = SentenceTransformer(EMBEDDING_MODEL_NAME, local_files_only=True)
+            except Exception:
+                try:
+                    cls._instance = SentenceTransformer(EMBEDDING_MODEL_NAME)
+                except Exception as e:
+                    print(f"Error loading model: {e}")
+                    raise
             print("Embedding model loaded successfully.")
         return cls._instance
 
