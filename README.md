@@ -2,12 +2,11 @@
 
 # 🔎 Shinri (真理)
 ### Verifiable Mutual Fund Information Assistant &bull; Groww Context
-*NextLeap Product Management Fellowship &bull; Milestone 4 Portfolio Prototype*
 
 </div>
 
 
-> **Shinri (真理)** evidence-grounded financial information assistant built for the Groww mutual fund platform context. Instead of generic AI chat that hallucinates facts or offers unauthorized financial advice, Shinri retrieves verified facts from official scheme documentation (SID/KIM/Groww disclosures) and synthesizes concise, source-attributed answers with clickable citations.
+> **Shinri (真理)** is an evidence-grounded financial information assistant built for the Groww mutual fund platform context. Instead of generic AI chat that hallucinates facts or offers unauthorized financial advice, Shinri retrieves verified facts from official scheme documentation (SID/KIM/Groww disclosures) and synthesizes concise, source-attributed answers with clickable citations.
 
 ---
 
