@@ -1,0 +1,26 @@
+Problem Statement: Mutual Fund FAQs (Facts-Only Q&A)
+Demonstration Context: Groww
+AMC Selected: HDFC Mutual Fund (5 Schemes)
+
+Milestone Brief:
+Build a conversational FAQ assistant that answers factual questions about mutual fund schemes—such as expense ratio, exit load, minimum SIP, lock-in periods (ELSS), riskometer, benchmark index, and procedure to download statements—using only official public scheme pages. Every answer must be grounded in retrieved context and include at least one clear citation link. Strictly no investment advice.
+
+Selected Schemes (HDFC AMC - Direct Growth Plans on Groww):
+1. Large Cap: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+2. Flexi Cap: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+3. ELSS Tax Saver: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+4. Small Cap: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+5. Balanced Advantage (Hybrid): https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+
+Who This Helps:
+- Retail users researching and comparing mutual fund scheme facts.
+- First-time investors trying to understand scheme characteristics without jargon.
+- Support and content teams answering repetitive mutual fund FAQ queries.
+
+Key Guardrails & Constraints:
+1. Facts-Only: Answers factual queries only; strictly refuses portfolio/opinionated questions ("Should I buy/sell/invest?") with a polite non-advisory message.
+2. Grounded Evidence: Answers derived strictly from ingested documents; says "I don't know / cannot find this in official documents" if evidence is absent.
+3. Citations & Brevity: Answers kept concise (<= 3 sentences) with an exact source citation link and "Last updated from sources" note.
+4. Privacy & Compliance: Zero PII accepted/stored (no PAN, Aadhaar, account numbers, contact details).
+5. No Performance Comparisons: No return calculations or return predictions.
+6. Tech Stack: Local embedding model (sentence-transformers/all-MiniLM-L6-v2, 384-dim), ChromaDB persistent vector database, Groq LLM (e.g. llama-3.3-70b-versatile / qwen), FastAPI / Streamlit UI.

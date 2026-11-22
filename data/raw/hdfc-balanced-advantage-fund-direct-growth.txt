@@ -1,0 +1,32 @@
+SCHEME NAME: HDFC Balanced Advantage Fund Direct Plan - Growth
+CATEGORY: Balanced Advantage (Hybrid)
+AMC: HDFC Mutual Fund
+BENCHMARK: NIFTY 50 Hybrid Composite debt 50:50 Index
+RISKOMETER: Very High Risk
+PLAN: Direct Plan - Growth
+SOURCE URL: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+======================================================================
+
+SECTION: Overview & Objective
+HDFC Balanced Advantage Fund Direct Plan - Growth is an open-ended balanced advantage fund (dynamic asset allocation hybrid scheme). The scheme dynamically manages allocation between equity, arbitrage, and fixed-income debt securities depending on market valuations and macroeconomic indicators. Source: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+
+SECTION: Expense Ratio & Charges
+The expense ratio of HDFC Balanced Advantage Fund Direct Plan - Growth is 0.73% (inclusive of GST). Stamp duty of 0.005% applies on every unit allocation. Source: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+
+SECTION: Exit Load Structure
+For HDFC Balanced Advantage Fund Direct Plan - Growth: For redemption or switch-out up to 15% of units within 1 year from the date of allotment: Nil exit load. For redemption or switch-out in excess of 15% of units within 1 year from allotment: 1.00% exit load. For redemption or switch-out after 1 year from allotment: Nil (0%) exit load. Source: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+
+SECTION: Minimum Investment & SIP
+For HDFC Balanced Advantage Fund Direct Plan - Growth, the minimum monthly SIP amount is Rs 100. The minimum lumpsum investment is Rs 100, and minimum additional purchase is Rs 100. Source: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+
+SECTION: Lock-in Period & Liquidity
+HDFC Balanced Advantage Fund Direct Plan - Growth has no lock-in period. Units can be redeemed on any business day at the applicable NAV. Source: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+
+SECTION: Benchmark & Riskometer
+The benchmark for HDFC Balanced Advantage Fund Direct Plan - Growth is NIFTY 50 Hybrid Composite debt 50:50 Index. The risk level on the SEBI riskometer is rated as Very High Risk. Source: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+
+SECTION: Taxation Treatment
+HDFC Balanced Advantage Fund dynamically maintains gross equity exposure (including derivatives) of at least 65%, qualifying for equity taxation. Long-Term Capital Gains (LTCG) over Rs 1.25 Lakh per financial year are taxed at 12.5% for units held over 12 months. Short-Term Capital Gains (STCG) are taxed at 20% for units held for 12 months or less. Source: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+
+SECTION: Account Statement & Capital Gains Download
+Download statements directly on Groww via Profile > Reports > Capital Gains Statement or Mutual Fund Orders. Alternatively, obtain your Consolidated Account Statement (CAS) via CAMS or the HDFC Mutual Fund investor website. Source: https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth

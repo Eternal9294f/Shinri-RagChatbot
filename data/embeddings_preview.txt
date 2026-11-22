@@ -1,0 +1,21 @@
+================================================================================
+SHINRI MUTUAL FUND RAG - EMBEDDINGS PREVIEW
+Model: sentence-transformers/all-MiniLM-L6-v2 (384 dimensions)
+Total Vectors: 41
+Showing first 5 embeddings (first 10 dimensions each):
+================================================================================
+
+Vector #chunk_1 (HDFC Large Cap Fund Direct Plan - Growth - Overview & Objective):
+  Dimensions [0..9]: [+0.066798, -0.049451, -0.061049, -0.027045, +0.129796, +0.016757, +0.012718, +0.033516, -0.062639, +0.014403, ...]
+
+Vector #chunk_2 (HDFC Large Cap Fund Direct Plan - Growth - Expense Ratio & Charges):
+  Dimensions [0..9]: [+0.072175, -0.033564, -0.030090, +0.004820, +0.146513, -0.003170, +0.038117, +0.052083, -0.057013, +0.031540, ...]
+
+Vector #chunk_3 (HDFC Large Cap Fund Direct Plan - Growth - Exit Load):
+  Dimensions [0..9]: [+0.071330, -0.036770, -0.020288, +0.032143, +0.118805, -0.018692, +0.036136, +0.060722, -0.035628, +0.044041, ...]
+
+Vector #chunk_4 (HDFC Large Cap Fund Direct Plan - Growth - Minimum Investment & SIP):
+  Dimensions [0..9]: [+0.119382, -0.050006, -0.060000, -0.047064, +0.057932, +0.002824, +0.009914, +0.117687, -0.063098, +0.043273, ...]
+
+Vector #chunk_5 (HDFC Large Cap Fund Direct Plan - Growth - Lock-in Period & Redemption):
+  Dimensions [0..9]: [+0.014508, -0.073482, -0.039696, -0.011165, +0.117602, +0.031626, +0.024069, -0.016171, -0.043621, +0.025506, ...]

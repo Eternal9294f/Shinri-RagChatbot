@@ -1,0 +1,32 @@
+SCHEME NAME: HDFC Flexi Cap Fund Direct Plan - Growth
+CATEGORY: Flexi Cap
+AMC: HDFC Mutual Fund
+BENCHMARK: NIFTY 500 TRI
+RISKOMETER: Very High Risk
+PLAN: Direct Plan - Growth
+SOURCE URL: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+======================================================================
+
+SECTION: Overview & Objective
+HDFC Flexi Cap Fund Direct Plan - Growth (formerly known as HDFC Equity Fund) is an open-ended dynamic equity mutual fund scheme offered by HDFC Mutual Fund. The scheme invests across large-cap, mid-cap, and small-cap stocks without market cap restrictions to generate long-term capital appreciation. Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+
+SECTION: Expense Ratio & Charges
+The expense ratio of HDFC Flexi Cap Fund Direct Plan - Growth is 0.77% (inclusive of GST). Expense ratio is deducted daily from the fund's Net Asset Value (NAV). A mandatory government stamp duty of 0.005% applies on every fresh purchase or SIP installment. Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+
+SECTION: Exit Load
+The exit load for HDFC Flexi Cap Fund Direct Plan - Growth is 1.00% if redeemed or switched out within 1 year (365 days) from the date of allotment. No exit load (0%) is charged if units are redeemed after completion of 1 year. Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+
+SECTION: Minimum Investment & SIP
+For HDFC Flexi Cap Fund Direct Plan - Growth, the minimum monthly SIP amount is Rs 100. The minimum lumpsum initial investment amount is Rs 100, and minimum additional purchase is Rs 100. Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+
+SECTION: Lock-in Period & Redemption
+HDFC Flexi Cap Fund Direct Plan - Growth has no lock-in period. Units can be redeemed at the prevailing NAV on any working trading day subject to exit load if redeemed within 1 year. Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+
+SECTION: Benchmark & Riskometer
+The benchmark for HDFC Flexi Cap Fund Direct Plan - Growth is NIFTY 500 Total Return Index (TRI). The riskometer level prescribed by SEBI is Very High Risk. Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+
+SECTION: Taxation Rules
+As an equity mutual fund scheme, gains from HDFC Flexi Cap Fund held for over 12 months are treated as LTCG and taxed at 12.5% for gains above Rs 1.25 Lakh per financial year. Gains held for up to 12 months are treated as STCG and taxed at 20%. Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+
+SECTION: Account Statement & Capital Gains Download
+Investors can download their statement for HDFC Flexi Cap Fund directly on Groww via Profile > Reports > Capital Gains Statement. Statements can also be downloaded from HDFC AMC online portal or via CAMS online using PAN and registered email. Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth

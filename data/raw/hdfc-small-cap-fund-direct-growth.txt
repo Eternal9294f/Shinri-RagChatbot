@@ -1,0 +1,32 @@
+SCHEME NAME: HDFC Small Cap Fund Direct Plan - Growth
+CATEGORY: Small Cap
+AMC: HDFC Mutual Fund
+BENCHMARK: BSE 250 SmallCap TRI
+RISKOMETER: Very High Risk
+PLAN: Direct Plan - Growth
+SOURCE URL: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+======================================================================
+
+SECTION: Overview & Objective
+HDFC Small Cap Fund Direct Plan - Growth is an open-ended equity mutual fund scheme predominantly investing in small-cap companies (companies ranked 251st and beyond in market capitalization). The fund objective is to generate long-term capital appreciation. Source: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+
+SECTION: Expense Ratio & Charges
+The expense ratio of HDFC Small Cap Fund Direct Plan - Growth is 0.68% (inclusive of GST). This is the direct plan fee charged on the scheme assets. Government stamp duty of 0.005% is charged on mutual fund purchases. Source: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+
+SECTION: Exit Load
+The exit load for HDFC Small Cap Fund Direct Plan - Growth is 1.00% if redeemed or switched out within 1 year (365 days) from allotment. If redeemed after 1 year, the exit load is Nil (0%). Source: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+
+SECTION: Minimum Investment & SIP
+For HDFC Small Cap Fund Direct Plan - Growth, the minimum monthly SIP amount is Rs 100. The minimum lumpsum investment amount is Rs 100. (Note: AMC may periodically restrict or adjust lumpsum limits based on market conditions). Source: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+
+SECTION: Lock-in Period & Redemption
+HDFC Small Cap Fund Direct Plan - Growth has Nil lock-in period. Investors can redeem their mutual fund units on any business day. Source: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+
+SECTION: Benchmark & Riskometer
+The benchmark index is BSE 250 SmallCap Total Return Index (TRI). The scheme riskometer is rated as Very High Risk due to higher volatility inherent in small-cap equities. Source: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+
+SECTION: Taxation Rules
+Equity taxation applies: Long-Term Capital Gains (LTCG) above Rs 1.25 Lakh per financial year are taxed at 12.5% if held for over 12 months. Short-Term Capital Gains (STCG) are taxed at 20% if held for 12 months or less. Source: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+
+SECTION: Account Statement & Capital Gains Download
+To download your HDFC Small Cap statement, navigate to Groww > Profile > Reports > Capital Gains / Transaction History. Official statements can also be downloaded from CAMS online or HDFC Mutual Fund investor services portal. Source: https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
